@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../pages/footer/footer";
 import Header from "../pages/header/header";
 
 export default function Root(): JSX.Element {
@@ -9,7 +8,6 @@ export default function Root(): JSX.Element {
             <div>
                 <Outlet />
             </div>
-            <Footer />
         </div>
     )
 }

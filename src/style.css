@@ -1,5 +1,33 @@
-*, *:before, *:after
-{
+*,
+*:before,
+*:after {
 	/* Allow each element to override */
 	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: Cormorant;
+	src: url('./assets/fonts/Cormorant-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: Trirong;
+	src: url('./assets/fonts/Trirong-Regular.ttf');
+}
+
+body {
+	font-family: Trirong;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Cormorant;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
