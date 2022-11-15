@@ -1,22 +1,22 @@
 [
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg", 
-        "alt": "Une photo d'un cerisier en fleurs",
-        "description": "Phasellus lacus sapien, volutpat id lobortis non, lacinia eget leo. Pellentesque non purus orci. Suspendisse tempor velit ac libero tincidunt elementum. Phasellus lacinia vitae ex quis faucibus. Sed et orci convallis, auctor nulla gravida, vehicula urna. Maecenas sit amet metus quis dui dignissim vestibulum. In enim libero, mattis sed purus sed, tempor faucibus massa. Nulla elementum sed neque eget mollis. Praesent porttitor eget risus et laoreet. Praesent in blandit tellus, quis tincidunt ante."
-    },
-    {
-        "picture":"http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
         "alt": "Maisons cube de Rotterdam",
         "description": "Série à propos de l'architecture"
-    }, 
+    },
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg", 
-        "alt": "Une photo d'un cerisier en fleurs",
-        "description": "Phasellus lacus sapien, volutpat id lobortis non, lacinia eget leo. Pellentesque non purus orci. Suspendisse tempor velit ac libero tincidunt elementum. Phasellus lacinia vitae ex quis faucibus. Sed et orci convallis, auctor nulla gravida, vehicula urna. Maecenas sit amet metus quis dui dignissim vestibulum. In enim libero, mattis sed purus sed, tempor faucibus massa. Nulla elementum sed neque eget mollis. Praesent porttitor eget risus et laoreet. Praesent in blandit tellus, quis tincidunt ante."
-    }, 
-        {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg", 
-        "alt": "Une photo d'un cerisier en fleurs",
-        "description": "Phasellus lacus sapien, volutpat id lobortis non, lacinia eget leo. Pellentesque non purus orci. Suspendisse tempor velit ac libero tincidunt elementum. Phasellus lacinia vitae ex quis faucibus. Sed et orci convallis, auctor nulla gravida, vehicula urna. Maecenas sit amet metus quis dui dignissim vestibulum. In enim libero, mattis sed purus sed, tempor faucibus massa. Nulla elementum sed neque eget mollis. Praesent porttitor eget risus et laoreet. Praesent in blandit tellus, quis tincidunt ante."
+        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "alt": "Maisons cube de Rotterdam",
+        "description": "Série à propos de l'architecture"
+    },
+    {
+        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "alt": "Maisons cube de Rotterdam",
+        "description": "Série à propos de l'architecture"
+    },
+    {
+        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "alt": "Maisons cube de Rotterdam",
+        "description": "Série à propos de l'architecture"
     }
 ]
