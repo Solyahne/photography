@@ -2,19 +2,29 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
-.navlink { 
+.header h1 {
+    font-size: 40px;
+    /* color: white;
+    background-color: rgb(103, 103, 103);
+    padding-right: 100px; */
+}
+
+nav {
+    margin-right: 2%;
+}
+
+.navlink {
     margin-right: 30px;
-    font-size: 17px;
-    text-decoration: underline 0.5px;
-    text-underline-offset: 3px;
+    font-size: 18px;
+    text-decoration: underline 0.5px rgb(103, 103, 103);;
+    text-underline-offset: 4px;
 }
 
 .navlink:hover {
     opacity: 0.5;
     transition: all 0.5s;
 }
-

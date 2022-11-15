@@ -7,6 +7,8 @@ import "./style.css";
 import Root from "./routes/root";
 import Home from "./pages/home/home";
 import Errorpage from "./pages/errorpage/errorpage";
+import Mentions from "./pages/mentionslegales/mentionslegales";
+import Photographies from "./pages/photographies/photographies";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home />
             },
+            {
+                path: "/mentionslegales",
+                element: <Mentions />
+            },
+            {
+                path: "/photographies",
+                element: <Photographies />
+            }
         ]
 
     }

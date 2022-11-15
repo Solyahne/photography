@@ -1,0 +1,13 @@
+.photocard {
+    border: 1px solid;
+    width: 400px;
+}
+
+.seriecover {
+    width: 400px;
+}
+
+.seriedescription {
+    width: 400px;
+    text-align: justify;
+}

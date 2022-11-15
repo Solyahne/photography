@@ -7,9 +7,25 @@
 
 .home_text {
   width: 35%;
+  animation: appeartext 2s linear forwards;
+  text-align: justify;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
 }
 
-.home_pictures{
+.home_text h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+  /* color: white;
+  background-color: rgb(103, 103, 103); */
+}
+
+.introduction {
+  overflow: hidden;
+
+}
+
+.home_pictures {
   margin-top: 20px;
 }
 
@@ -25,14 +41,61 @@
 }
 
 .home_pictures_right {
-  bottom: 25%;
-  margin-left: 17%;
+  bottom: 200px;
+  margin-left: 280px;
   position: absolute;
+}
+
+@keyframes appear1 {
+  from {
+    opacity: 0.5;
+    transform: translateY(-5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear2 {
+  from {
+    opacity: 0.5;
+    transform: translateX(5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes appear3{
+  from {
+    opacity: 0.5;
+    transform: translateY(5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appeartext {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .home_picture_1 {
   z-index: 2;
   margin: 0 0 20px 85px;
+  animation: appear1 2000ms;
 }
 
 .home_picture_2 {
@@ -40,10 +103,11 @@
   margin-left: 130px;
   width: auto;
   height: 450px;
+  animation: appear2 2000ms;
 }
 
 .home_picture_3 {
   z-index: -1;
   margin-left: 10px;
+  animation: appear3 2000ms;
 }
-

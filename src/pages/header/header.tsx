@@ -1,33 +1,31 @@
 import { NavLink } from "react-router-dom";
 import Instagram from "../../assets/instagram.svg";
-import "./header.css"; 
+import "./header.css";
 
-export default function Header() {
+export default function Header(): JSX.Element {
     return (
-        <div className="header">
-            <h1>
-                MANON ANTIGNAC
-            </h1>
+        <header className="header">
+            <NavLink end to={"/"}>
+                <h1>
+                    MANON ANTIGNAC
+                </h1>
+            </NavLink>
             <nav>
-                <NavLink to={'/'}
-                    className={({ isActive }) =>
-                        isActive ? "navlink link-active" : "navlink"}>
+                <NavLink to={'/photographies'}
+                    className="navlink">
                     Photographies
                 </NavLink>
 
                 <NavLink to={'/'}
-                    className={({ isActive }) =>
-                        isActive ? "navlink link-active" : "navlink"}>
+                    className="navlink">
                     Me contacter
                 </NavLink>
 
-                <NavLink to={'https://www.instagram.com/solyahne/'}
-                    className={({ isActive }) =>
-                        isActive ? "navlink link-active" : "navlink"}>
+                <a href="https://www.instagram.com/solyahne/" className="navlink">
                     <img src={Instagram} alt="Lien vers instagram"></img>
-                </NavLink>
+                </a>
 
             </nav>
-        </div>
+        </header>
     )
 }
