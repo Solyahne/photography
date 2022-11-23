@@ -2,21 +2,25 @@
     {
         "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
         "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture"
+        "description": "Série à propos de l'architecture",
+        "category": "architecture"
     },
     {
         "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
         "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture"
+        "description": "Série à propos de l'architecture",
+        "category": "pouet"
     },
     {
         "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
-        "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture"
+        "alt": "LALALALALA Pouet",
+        "description": "Série à propos de l'architecture",
+        "category": "architecture"
     },
     {
         "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
-        "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture"
+        "alt": "HIHIHIHI",
+        "description": "Série à propos de l'architecture",
+        "category": "architecture"
     }
 ]

@@ -9,6 +9,7 @@ import Home from "./pages/home/home";
 import Errorpage from "./pages/errorpage/errorpage";
 import Mentions from "./pages/mentionslegales/mentionslegales";
 import Photographies from "./pages/photographies/photographies";
+import Seriepage from "./pages/seriepage/seriepage";
 
 const router = createBrowserRouter([
     {
@@ -27,7 +28,12 @@ const router = createBrowserRouter([
             {
                 path: "/photographies",
                 element: <Photographies />
+            },
+            {
+                path: "/photographies/:link", 
+                element: <Seriepage />
             }
+            
         ]
 
     }

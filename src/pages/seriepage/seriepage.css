@@ -1,0 +1,13 @@
+.photos_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 98%;
+}
+
+.photos_all {
+    width: 49.5%;
+    margin-bottom: 1%;
+    object-fit: cover;
+}
