@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./gallery.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 interface GalleryElement {
     pictures: string[]
@@ -26,28 +28,28 @@ export default function Gallery({ pictures }: GalleryElement) {
 
     return (
         <article className="gallery">
-        {pictures.map((image, index) => {
-            return (
-                <div key={index}>
-                    {index === currentImg && (
-                        <img src={image} alt='' className='gallery_photo' />
-                    )}
+            {pictures.map((image, index) => {
+                return (
+                    <div key={index}>
+                        {index === currentImg && (
+                            <img src={image} alt='' className='gallery_photo' />
+                        )}
+                    </div>
+                )
+            })}
+            {length > 1 ? (
+                <div className="carouselelements">
+                    <div>
+                        <FontAwesomeIcon icon={faChevronLeft} onClick={prev} />
+                    </div>
+                    <p className='bulletpoint'>
+                        {currentImg + 1}/{length}
+                    </p>
+                    <div>
+                        <FontAwesomeIcon icon={faChevronRight} onClick={next} />
+                    </div>
                 </div>
-            )
-        })}
-        {length > 1 ? (
-            <div className="carouselelements">
-                <div>
-                    <img src={arrowleft} className='arrow arrowleft' onClick={prev} />
-                </div>
-                <p className='bulletpoint'>
-                    {currentImg + 1}/{length}
-                </p>
-                <div>
-                    <img src={arrowright} className='arrow arrowright' onClick={next}/>
-                </div>
-            </div>
-        ) : null}
-    </article>
+            ) : null}
+        </article>
     )
 }
