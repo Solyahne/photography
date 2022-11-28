@@ -1,24 +1,36 @@
 [
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
         "alt": "Maisons cube de Rotterdam",
         "description": "Série à propos de l'architecture",
         "category": "architecture"
     },
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
         "alt": "Maisons cube de Rotterdam",
         "description": "Série à propos de l'architecture",
         "category": "pouet"
     },
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
         "alt": "LALALALALA Pouet",
         "description": "Série à propos de l'architecture",
         "category": "architecture"
     },
     {
-        "picture": "http://localhost:3000/static/media/vimystatue.be454b22ac9f1ddd4559.jpg",
+        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
+        "alt": "HIHIHIHI",
+        "description": "Série à propos de l'architecture",
+        "category": "architecture"
+    }, 
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/statueathens.dd2f4eb4b5447192bc82.jpg",
+        "alt": "HIHIHIHI",
+        "description": "Série à propos de l'architecture",
+        "category": "architecture"
+    }, 
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
         "alt": "HIHIHIHI",
         "description": "Série à propos de l'architecture",
         "category": "architecture"

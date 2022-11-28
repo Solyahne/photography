@@ -7,7 +7,7 @@ interface GalleryElement {
     pictures: string[]
 }
 
-export default function Gallery({ pictures }: GalleryElement) {
+export default function Gallery({ pictures }: GalleryElement): JSX.Element {
 
     const [currentImg, setCurrentImg] = useState(0);
     const length = pictures.length;
@@ -25,28 +25,32 @@ export default function Gallery({ pictures }: GalleryElement) {
         setCurrentImg(currentImg === 0 ? length - 1 : currentImg - 1);
     }
 
+    const [open, setOpen] = useState(true);
+    function show() {
+        setOpen(!open);
+    }
 
     return (
         <article className="gallery">
             {pictures.map((image, index) => {
                 return (
-                    <div key={index}>
-                        {index === currentImg && (
-                            <img src={image} alt='' className='gallery_photo' />
-                        )}
-                    </div>
+                    <main>
+                        {open && <div key={index}>
+                            {index === currentImg && (
+                                <img src={image} alt='' className='gallery_photo' onClick={show} />
+                            )}
+                        </div>}
+
+                    </main>
                 )
             })}
-            {length > 1 ? (
-                <div className="carouselelements">
+            {open && length > 1 ? (
+                <div className="gallery_arrows">
                     <div>
-                        <FontAwesomeIcon icon={faChevronLeft} onClick={prev} />
+                        <FontAwesomeIcon icon={faChevronLeft} onClick={prev} className="arrow" />
                     </div>
-                    <p className='bulletpoint'>
-                        {currentImg + 1}/{length}
-                    </p>
                     <div>
-                        <FontAwesomeIcon icon={faChevronRight} onClick={next} />
+                        <FontAwesomeIcon icon={faChevronRight} onClick={next} className="arrow" />
                     </div>
                 </div>
             ) : null}
