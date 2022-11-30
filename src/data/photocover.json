@@ -1,20 +1,50 @@
 [
     {
-        "picture": "http://photos.manon-antignac.com/static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
-        "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture",
+        "picture": "http://photos.manon-antignac.com/static/media/athenesacropole.jpg",
+        "alt": "Deux bâtiments de l'acropole d'Athènes",
+        "description": "Athènes",
+        "category": "athenes"
+    },
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/seinecalme.jpg",
+        "alt": "La Seine, avec sa surface plane",
+        "description": "Paris",
+        "category": "paris"
+    },
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/immeublesrotterdam.jpg",
+        "alt": "Des immeubles à Rotterdam",
+        "description": "Architecture urbaine",
         "category": "architecture"
     },
     {
-        "picture": "http://photos.manon-antignac.com//static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
-        "alt": "Maisons cube de Rotterdam",
-        "description": "Série à propos de l'architecture",
-        "category": "pouet"
+        "picture": "http://photos.manon-antignac.com/static/media/chateauprague.jpg",
+        "alt": "La cour du chateau de Prague",
+        "description": "Prague",
+        "category": "prague"
     },
     {
-        "picture": "http://photos.manon-antignac.com//static/media/vimystatue.4d556dfc4ebddc50ea96.jpg",
-        "alt": "LALALALALA Pouet",
-        "description": "Série à propos de l'architecture",
-        "category": "architecture"
+        "picture": "http://photos.manon-antignac.com/static/media/calio.jpg",
+        "alt": "Un chat qui dort",
+        "description": "Animaux",
+        "category": "animaux"
+    },
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/montsaintmichelclassique.jpg",
+        "alt": "Le Mont-Saint-Michel et sa baie",
+        "description": "Mont-Saint-Michel",
+        "category": "montsaintmichel"
+    },
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/cherry.jpg",
+        "alt": "Une branche de cerisier en fleurs",
+        "description": "Nature",
+        "category": "nature"
+    },
+    {
+        "picture": "http://photos.manon-antignac.com/static/media/vimy.jpg",
+        "alt": "Le mémorial de Vimy",
+        "description": "Vimy",
+        "category": "vimy"
     }
 ]

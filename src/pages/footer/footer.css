@@ -12,3 +12,18 @@ footer {
     opacity: 0.5;
     transition: all 0.5s;
 }
+
+.br_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 777px) {
+
+    .display_mobile {
+        display: none;
+    }
+    
+    .br_mobile {
+        display: block;
+    }
+}

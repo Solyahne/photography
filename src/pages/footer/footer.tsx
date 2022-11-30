@@ -4,10 +4,10 @@ import "./footer.css";
 export default function Footer(): JSX.Element {
     return (
         <footer>
-            © 2022 Manon Antignac |
+            © 2022 Manon Antignac <span className="display_mobile">|</span>
             <NavLink to={'/mentionslegales'}
                 className="footerlink">
-                Mentions légales et politique de confidentialité
+                <br className="br_mobile"/>Mentions légales et politique de confidentialité
             </NavLink>
         </footer>
     )

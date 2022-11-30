@@ -2,6 +2,7 @@ import "./home.css";
 import Pool from "../../assets/photos/corsicapool.jpg";
 import Vimy from "../../assets/photos/vimystatue.jpg";
 import Statue from "../../assets/photos/statueathens.jpg";
+import Test from "../../assets/photos/seinecalme.jpg";
 
 export default function Home(): JSX.Element {
   return (
@@ -33,7 +34,7 @@ export default function Home(): JSX.Element {
       <div className="home_pictures">
         <div className="home_pictures_left">
           <img src={Pool} alt="pouet" className="home_picture home_picture_1"></img>
-          <img src={Vimy} alt="" className="home_picture home_picture_3"></img>
+          <img src={Test} alt="" className="home_picture home_picture_3"></img>
         </div>
         <div className="home_pictures_right">
           <img src={Statue} alt="" className="home_picture home_picture_2"></img>
