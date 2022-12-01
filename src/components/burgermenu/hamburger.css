@@ -1,3 +1,15 @@
+@keyframes crossappear {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .bars {
     display: none;
     background: none;
@@ -20,6 +32,7 @@
         position: absolute;
         top: 15%;
         right: 8%;
+        animation: crossappear 0.3s;
     }
 
 }

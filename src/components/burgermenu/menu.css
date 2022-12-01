@@ -1,3 +1,13 @@
+@keyframes appear {
+    from {
+        transform: translateY(-99%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
 @media screen and (min-width: 778px) and (max-width: 992px) {
     .burger_menu {
         display: flex;
@@ -10,7 +20,9 @@
         left: 0;
         z-index: 3;
         background-color: white;
+        animation: appear 0.3s;
     }
+
     .burger_items {
         display: flex;
         margin-top: 15px;
@@ -18,6 +30,7 @@
         width: 70%;
         font-size: 25px;
     }
+
     .burger_instagram {
         height: 25px;
     }
@@ -35,7 +48,9 @@
         left: 0;
         z-index: 3;
         background-color: white;
+        animation: appear 0.3s;
     }
+
     .burger_items {
         height: 37%;
         display: flex;
