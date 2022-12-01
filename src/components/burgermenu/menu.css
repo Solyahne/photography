@@ -1,6 +1,5 @@
 @media screen and (max-width: 777px) {
     .burger_menu {
-        border: red solid;
         display: flex;
         align-items: center;
         justify-content: center;

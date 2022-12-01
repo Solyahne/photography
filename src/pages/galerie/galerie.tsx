@@ -17,7 +17,6 @@ export default function Seriepage(): JSX.Element {
 
     return (
         <main className="photos_main">
-            <div id="top_page"></div>
             {photosFound?.map((element, index) =>
                 <img src={element.picture} alt={element.alt} key={index} className="photos_all"></img>
             )}

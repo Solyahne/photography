@@ -22,25 +22,34 @@ export default function Menu() {
             {open ? (
                 <div className="burger_menu">
                     <nav className="burger_items">
-                    <NavLink to={'/photographies'}
-                        className="burger_navlink"
-                        onClick={close}>
-                        Photographies
-                    </NavLink>
 
-                    <NavLink to={'/'}
-                        className="burger_navlink"
-                        onClick={close}>
-                        Me contacter
-                    </NavLink>
+                        <NavLink to={'/'}
+                            className="burger_navlink"
+                            onClick={close}>
+                            Accueil
+                        </NavLink>
 
-                    <a href="https://www.instagram.com/solyahne/" className="burger_navlink" onClick={close}>
-                        <img src={Instagram} alt="Lien vers instagram"></img>
-                    </a>
-                    <Hamburger open={open} setOpen={setOpen} />
+                        <NavLink to={'/photographies'}
+                            className="burger_navlink"
+                            onClick={close}>
+                            Photographies
+                        </NavLink>
+
+                        <NavLink to={'/'}
+                            className="burger_navlink"
+                            onClick={close}>
+                            Me contacter
+                        </NavLink>
+
+                        <a href="https://www.instagram.com/solyahne/" className="burger_navlink" onClick={close}>
+                            <img src={Instagram} alt="Lien vers instagram"></img>
+                        </a>
+
+                        <Hamburger open={open} setOpen={setOpen} />
+
                     </nav>
                 </div>) : ("")}
-                <Hamburger open={open} setOpen={setOpen} />
+            <Hamburger open={open} setOpen={setOpen} />
         </div>
     )
 }

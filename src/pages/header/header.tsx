@@ -5,7 +5,7 @@ import "./header.css";
 
 export default function Header(): JSX.Element {
     return (
-        <header className="header">
+        <header className="header" id="top_page">
             <NavLink end to={"/"}>
                 <h1>
                     MANON ANTIGNAC
