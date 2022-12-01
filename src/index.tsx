@@ -8,8 +8,8 @@ import Root from "./routes/root";
 import Home from "./pages/home/home";
 import Errorpage from "./pages/errorpage/errorpage";
 import Mentions from "./pages/mentionslegales/mentionslegales";
-import Photographies from "./pages/photographies/photographies";
-import Seriepage from "./pages/seriepage/seriepage";
+import Photographies from "./pages/listecategories/listecategories";
+import Galerie from "./pages/galerie/galerie";
 
 const router = createBrowserRouter([
     {
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/photographies/:link", 
-                element: <Seriepage />
+                element: <Galerie />
             }
             
         ]

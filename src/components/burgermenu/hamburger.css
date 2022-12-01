@@ -1,0 +1,15 @@
+.bars {
+    display: none;
+}
+
+@media screen and (min-width: 778px) and (max-width: 992px) {
+    .bars {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .bars {
+        display: flex;
+    }
+}

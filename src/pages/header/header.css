@@ -28,3 +28,15 @@ nav {
     opacity: 0.5;
     transition: all 0.5s;
 }
+
+@media screen and (min-width: 778px) and (max-width: 992px) {
+    .navlink {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .navlink {
+        display: none;
+    }
+}

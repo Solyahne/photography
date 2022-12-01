@@ -1,6 +1,6 @@
 import PhotoSeries from "../../components/photoseries/photoseries";
 import photocover from "../../data/photocover.json";
-import "./photographies.css";
+import "./listecategories.css";
 
 export default function Photographies(): JSX.Element {
     return (

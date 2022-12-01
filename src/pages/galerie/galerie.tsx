@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpLong } from "@fortawesome/free-solid-svg-icons";
-import "./seriepage.css";
+import "./galerie.css";
 import photos from "../../data/photos.json";
 import photocategorie from "../../data/photocover.json";
 import Nav from "../../components/nav/nav";

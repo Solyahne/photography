@@ -1,6 +1,5 @@
 import "./home.css";
 import Pool from "../../assets/photos/corsicapool.jpg";
-import Vimy from "../../assets/photos/vimystatue.jpg";
 import Statue from "../../assets/photos/statueathens.jpg";
 import Test from "../../assets/photos/seinecalme.jpg";
 
