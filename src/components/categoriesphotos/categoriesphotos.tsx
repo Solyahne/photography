@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
-import "./photoseries.css";
+import "./categoriesphotos.css";
 
-interface PhotoSeriesElement {
+interface CategoriesPhotosTypes {
     link: string,
     cover: string,
     alt: string,
     description: string
 }
 
-export default function PhotoSeries({ cover, alt, description, link }: PhotoSeriesElement): JSX.Element {
+export default function CategoriesPhotos({ cover, alt, description, link }: CategoriesPhotosTypes): JSX.Element {
     return (
         <NavLink to={`${link}`}>
             <article className="photocard">

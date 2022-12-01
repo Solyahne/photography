@@ -1,0 +1,22 @@
+@media screen and (max-width: 777px) {
+    .burger_menu {
+        border: red solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        background-color: white;
+    }
+    .burger_items {
+        height: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

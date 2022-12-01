@@ -1,4 +1,4 @@
-import PhotoSeries from "../../components/photoseries/photoseries";
+import CategoriesPhotos from "../../components/categoriesphotos/categoriesphotos";
 import photocover from "../../data/photocover.json";
 import "./listecategories.css";
 
@@ -11,7 +11,7 @@ export default function Photographies(): JSX.Element {
             </p>
             <section className="photographies_cards_container">
                 {photocover.map((element, index) => (
-                    <PhotoSeries
+                    <CategoriesPhotos
                         key={index}
                         link={element.category}
                         cover={element.picture}

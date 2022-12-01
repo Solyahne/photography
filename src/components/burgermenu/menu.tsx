@@ -18,9 +18,10 @@ export default function Menu() {
     };
 
     return (
-        <nav className="burger_menu" open={open}>
+        <div open={open}>
             {open ? (
-                <>
+                <div className="burger_menu">
+                    <nav className="burger_items">
                     <NavLink to={'/photographies'}
                         className="burger_navlink"
                         onClick={close}>
@@ -36,9 +37,10 @@ export default function Menu() {
                     <a href="https://www.instagram.com/solyahne/" className="burger_navlink" onClick={close}>
                         <img src={Instagram} alt="Lien vers instagram"></img>
                     </a>
-                </> ) : ("") }
-
-            <Hamburger open={open} setOpen={setOpen} />
-        </nav>
+                    <Hamburger open={open} setOpen={setOpen} />
+                    </nav>
+                </div>) : ("")}
+                <Hamburger open={open} setOpen={setOpen} />
+        </div>
     )
 }
