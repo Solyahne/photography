@@ -42,7 +42,7 @@ export default function Menu() {
                         </NavLink>
 
                         <a href="https://www.instagram.com/solyahne/" className="burger_navlink" onClick={close}>
-                            <img src={Instagram} alt="Lien vers instagram"></img>
+                            <img src={Instagram} alt="Lien vers instagram" className="burger_instagram"></img>
                         </a>
 
                         <Hamburger open={open} setOpen={setOpen} />

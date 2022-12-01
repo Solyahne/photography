@@ -8,12 +8,9 @@
 
 .header h1 {
     font-size: 40px;
-    /* color: white;
-    background-color: rgb(103, 103, 103);
-    padding-right: 100px; */
 }
 
-nav {
+.header_nav {
     margin-right: 2%;
 }
 

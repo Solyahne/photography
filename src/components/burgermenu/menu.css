@@ -1,3 +1,28 @@
+@media screen and (min-width: 778px) and (max-width: 992px) {
+    .burger_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        background-color: white;
+    }
+    .burger_items {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 25px;
+    }
+    .burger_instagram {
+        height: 25px;
+    }
+}
+
 @media screen and (max-width: 777px) {
     .burger_menu {
         display: flex;

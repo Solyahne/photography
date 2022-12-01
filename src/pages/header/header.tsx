@@ -11,7 +11,7 @@ export default function Header(): JSX.Element {
                     MANON ANTIGNAC
                 </h1>
             </NavLink>
-            <nav>
+            <nav className="header_nav">
                 <NavLink to={'/photographies'}
                     className="navlink">
                     Photographies
