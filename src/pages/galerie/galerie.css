@@ -19,6 +19,8 @@
     bottom: 50px;
     right: 30px;
     color: white;
+    padding: 5px;
+    background-color: rgb(112, 112, 112, 0.7);
 }
 
 @media screen and (min-width: 778px) and (max-width: 992px) {
