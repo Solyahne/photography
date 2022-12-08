@@ -20,6 +20,10 @@ body {
 	background-color: #fbfbfb;
 }
 
+.body_hidden {
+	overflow: hidden;
+}
+
 h1,
 h2,
 h3 {

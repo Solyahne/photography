@@ -6,7 +6,9 @@ import Hamburger from "./hamburger";
 
 declare module 'react' {
     interface HTMLAttributes<T> {
-        open?: boolean;
+        open?: boolean, 
+        e?: string,
+        index?: number
     }
 };
 
