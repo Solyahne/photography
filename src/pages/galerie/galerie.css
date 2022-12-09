@@ -12,6 +12,10 @@
     flex-grow: 1;
 }
 
+.photos_all:hover {
+    cursor: pointer;
+}
+
 .arrow_top {
     position: fixed;
     width: 25px;

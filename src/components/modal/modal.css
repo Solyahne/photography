@@ -23,7 +23,8 @@
   .modal_image {
     display: block;
     background: white;
-    height: 50vw;
-    padding: 1rem;
-    border-radius: 1rem;
+    max-height: 55vw;
+    max-width: 70vw;
+    padding: 3px;
+    border-radius: 2px;
   }

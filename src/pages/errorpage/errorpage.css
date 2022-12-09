@@ -1,0 +1,15 @@
+.error_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error_main .navlink {
+    font-size: 16px;
+}
+
+.error_404 {
+    font-size: 240px;
+    margin-bottom: 50px;
+}

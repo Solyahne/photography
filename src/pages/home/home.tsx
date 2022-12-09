@@ -11,23 +11,11 @@ export default function Home(): JSX.Element {
           LE <br />MONDE<br /> EN LUMIERE<br /> ET CONTRASTES
         </h2>
         <p className="introduction">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus fermentum varius neque nec ultrices. Pellentesque non facilisis est, commodo dictum lorem.
-          Aliquam eget turpis vel sem mattis imperdiet.
-          Fusce consequat suscipit mauris, in porttitor libero consequat at. Nunc pellentesque metus eget iaculis auctor.
-          Vivamus eget turpis sit amet odio pharetra lacinia.
-          Aliquam scelerisque auctor risus, rutrum consequat est commodo tempor. Praesent eu ipsum lorem.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus fermentum varius neque nec ultrices. Pellentesque non facilisis est, commodo dictum lorem.
-          Aliquam eget turpis vel sem mattis imperdiet.</p>
+        La photographie en noir et blanc permet de capturer notre monde d’une manière unique. 
+        Elle révèle des strates invisibles à l’œil nu, nous invite à voir notre environnement différemment, à se concentrer sur des détails qui seraient peut-être restés dans l’ombre. 
+        Elle apporte une liberté inédite, celle de s’affranchir des couleurs pour ne voir qu’en formes et jeux de contrastes. </p>
         <p>
-          Fusce consequat suscipit mauris, in porttitor libero consequat at. Nunc pellentesque metus eget iaculis auctor.
-          Vivamus eget turpis sit amet odio pharetra lacinia.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus fermentum varius neque nec ultrices. Pellentesque non facilisis est, commodo dictum lorem.
-          Aliquam eget turpis vel sem mattis imperdiet.
-          Fusce consequat suscipit mauris, in porttitor libero consequat at. Nunc pellentesque metus eget iaculis auctor.
-          Vivamus eget turpis sit amet odio pharetra lacinia.
+        Le monochrome nous invite à nous concentrer sur les formes et la lumière. Exigeant, il demande de porter une attention toute particulière à la composition pour réaliser tout son potentiel. Mais la récompense est à la hauteur des efforts. Il y a une raison pour laquelle la photographie noir et blanc est toujours utilisée, pour laquelle elle survit malgré son âge. Ce site et les images qu’il présente sont ma maigre contribution à cet art, populaire et sans cesse renouvelé.  J’ai eu mon premier appareil photo argentique lorsque j’étais enfant, et depuis ma collection n’a cessé de grandir, au grès de mes voyages et des évènements. Je vous invite aujourd'hui à en découvrir une partie.
         </p>
       </div>
       <div className="home_pictures">
