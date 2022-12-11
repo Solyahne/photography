@@ -93,7 +93,7 @@
 .home_picture_1 {
   z-index: 2;
   margin: 0 0 20px 85px;
-  animation: appear1 2000ms;
+  animation: appear1 3000ms;
 }
 
 .home_picture_2 {
@@ -101,13 +101,13 @@
   margin-left: 130px;
   width: auto;
   height: 450px;
-  animation: appear2 2000ms;
+  animation: appear2 3000ms;
 }
 
 .home_picture_3 {
   z-index: -1;
   margin-left: 10px;
-  animation: appear3 2000ms;
+  animation: appear3 3000ms;
 }
 
 @media screen and (min-width: 778px) and (max-width: 1400px) {
