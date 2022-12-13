@@ -7,13 +7,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5500, () => console.log("Server Running"));
+app.listen(() => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: `m.antignac.soubie@gmail.com`,
-        pass: `wpvypmquqespdywm`,
+        pass: `tkyjbhyuqjcueeie`,
     },
 });
 
