@@ -1,7 +1,7 @@
 .contactform_main {
     background-image: url("http://photos.manon-antignac.com/static/media/seinecalme.jpg");
     background-size: cover;
-    
+    background-position-y: 35%;
 }
 
 .contactform {
@@ -24,6 +24,7 @@
 .contactform_input {
     border: 0.2px solid;
     font-size: 14px;
+    background-color: white;
 }
 
 .contactform_input:focus {
