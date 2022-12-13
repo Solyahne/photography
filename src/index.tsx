@@ -10,6 +10,7 @@ import Errorpage from "./pages/errorpage/errorpage";
 import Mentions from "./pages/mentionslegales/mentionslegales";
 import Photographies from "./pages/listecategories/listecategories";
 import Galerie from "./pages/galerie/galerie";
+import Contact from "./pages/contactform/contact";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
             {
                 path: "/photographies/:link", 
                 element: <Galerie />
+            }, 
+            {
+                path: "/contact", 
+                element: <Contact />
             }
             
         ]

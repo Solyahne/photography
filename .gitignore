@@ -24,3 +24,7 @@ yarn-error.log*
 
 #images
 /src/assets/photos
+
+#securite
+/back/.env
+/back/node_modules
