@@ -26,5 +26,6 @@ yarn-error.log*
 /src/assets/photos
 
 #securite
-/back/.env
-/back/node_modules
+/back
+/back/app.js
+back/app.js

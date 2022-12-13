@@ -17,10 +17,10 @@ export default function Header(): JSX.Element {
                     Photographies
                 </NavLink>
 
-                {/* <NavLink to={'/contact'}
+                <NavLink to={'/contact'}
                     className="navlink">
                     Me contacter
-                </NavLink> */}
+                </NavLink>
 
                 <a href="https://www.instagram.com/solyahne/" className="navlink">
                     <img src={Instagram} alt="Lien vers instagram"></img>

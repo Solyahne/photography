@@ -37,7 +37,7 @@ export default function Menu() {
                             Photographies
                         </NavLink>
 
-                        <NavLink to={'/'}
+                        <NavLink to={'/contact'}
                             className="burger_navlink"
                             onClick={close}>
                             Me contacter

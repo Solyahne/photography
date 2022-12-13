@@ -1,0 +1,45 @@
+.contactform_main {
+    background-image: url("http://photos.manon-antignac.com/static/media/seinecalme.jpg");
+    background-size: cover;
+    
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width:80%;
+    padding: 5% 0 10% 0;
+    gap: 20px;
+}
+
+.contactform_component {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+
+.contactform_input {
+    border: 0.2px solid;
+    font-size: 14px;
+}
+
+.contactform_input:focus {
+    border: 1px solid;
+}
+
+textarea {
+    height: 250px;
+}
+
+input {
+    height: 20px;
+}
+
+.contactform_button {
+    width: 80px;
+    background-color: white;
+    border: none;
+}
